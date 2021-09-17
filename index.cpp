@@ -71,14 +71,12 @@ int main()
     cout << quiz.content << endl;
     cout << "\x1b[42m Player 1 turn \x1b[0m" << endl;
     start_time = time (NULL);
-    // cin >> p1_input;
     getline(cin >> ws, p1_input);
     end_time = time (NULL);
     player_1.set_input(p1_input);
     player_1.set_score(end_time - start_time);
     cout << "\x1b[42m Player 2 turn \x1b[0m" << endl;
     start_time = time (NULL);
-    // cin >> p2_input;
     getline(cin >> ws, p2_input);
     end_time = time (NULL);
     player_2.set_input(p2_input);
