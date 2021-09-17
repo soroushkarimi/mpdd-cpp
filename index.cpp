@@ -65,7 +65,7 @@ int main()
     Quiz quiz;
     time_t start_time, end_time;
     quiz.difficulty = easy;
-    quiz.content = "This is the exam!";
+    quiz.content = "This is an awesome project. I should get 10 for it!";
     string p1_input, p2_input;
     cout << "Type the following correct and fast to win: " << endl;
     cout << quiz.content << endl;
